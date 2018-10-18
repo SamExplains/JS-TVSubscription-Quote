@@ -1,0 +1,3 @@
+$('.ui.floating.dropdown')
+  .dropdown()
+;

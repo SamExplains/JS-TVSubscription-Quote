@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TV Subscription Quote</title>
+  <!--Bootstrap 4-->
+  <link rel="stylesheet" href="node_modules/less/test/css/3rd-party/bootstrap4.css">
+  <!--Semantic CSS-->
+  <link rel="stylesheet" href="node_modules/semantic-ui/dist/semantic.css">
+  <!--Jquery-->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <!--Semantic JS-->
+  <script src="node_modules/semantic-ui/dist/semantic.js"></script>
+</head>
+<body>
+
+<div class="container mt-5">
+  <div class="row">
+  <div class="col-8 offset-2">
+    <div class="ui piled segment">
+      <h3 class="ui header">TV Subscription Quote</h3>
+      <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ullam?</p>
+
+      <div class="field">
+        <label class="font-weight-bold">Broadcaster</label>
+      </div>
+      <div class="ui floating dropdown labeled search icon button">
+        <i class="tv icon"></i>
+        <span class="text">Select Broadcasting Region</span>
+        <div class="menu">
+          <div class="item">American</div>
+          <div class="item">South American</div>
+          <div class="item">Asian</div>
+          <div class="item">European</div>
+        </div>
+      </div>
+
+      <div class="field mt-3">
+        <label class="font-weight-bold">Service Provider</label>
+      </div>
+      <div class="ui floating dropdown labeled search icon button fluid green">
+        <i class="server icon"></i>
+        <span class="text">Select Broadcasting Region</span>
+        <div class="menu">
+          <div class="item">American</div>
+          <div class="item">South American</div>
+          <div class="item">Asian</div>
+          <div class="item">European</div>
+        </div>
+      </div>
+
+      <div class="ui form mt-3">
+        <div class="inline fields">
+          <label>Service tier?</label>
+          <div class="field">
+            <div class="ui radio checkbox">
+              <input name="frequency" checked="checked" type="radio">
+              <label>Basic</label>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui radio checkbox">
+              <input name="frequency" type="radio">
+              <label>Premium</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ui button blue">Get Quote</div>
+
+
+    </div>
+  </div>
+
+  </div>
+</div>
+
+<!-- App script -->
+<script src="src/app.js"></script>
+
+</body>
+</html>
